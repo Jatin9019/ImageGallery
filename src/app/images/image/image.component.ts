@@ -31,7 +31,7 @@ export class ImageComponent implements OnInit {
       this.selectedImage=event.target.files[0];
     }
     else{
-      this.imgSrc="/assets/img/image_placeholder.jpg";
+      this.imgSrc="assets/img/image_placeholder.jpg";
       this.selectedImage=null;
     }
   }
